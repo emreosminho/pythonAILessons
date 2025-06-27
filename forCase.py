@@ -13,3 +13,13 @@ for i in range(x+1):
     else:
         fak *= i
 print("Faktöriyel:", fak)
+
+for i in range (0,10,2):
+    print(i)
+
+y = int(input("Faktoriyel alinacak sayiyi giriniz:"))
+faktoriyel = 1
+for i in range (y+1):
+    if i != 0:
+        faktoriyel *= i
+print(faktoriyel)
