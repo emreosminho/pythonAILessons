@@ -15,3 +15,6 @@ for i in d:
 
     if value > 66:
         print(i)
+
+
+#nonScaler dersi
