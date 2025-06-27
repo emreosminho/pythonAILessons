@@ -17,4 +17,4 @@ for i in d:
         print(i)
 
 
-#nonScaler dersi
+#nonScaler dersi commit
