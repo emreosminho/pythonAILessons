@@ -19,3 +19,14 @@ for a,b in l:
 adlar = ["emre","taha","nergis"]
 for i, e in enumerate(adlar, start = 1):
     print(i, "indexteki eleman", e)
+
+print("--------------------------------")
+
+# zip mantığı
+
+ogrenciler = ["emre","taha","nergis"]
+notlar = [85,95,100]
+
+for o, n in zip(ogrenciler, notlar):
+    print(o, n)
+
