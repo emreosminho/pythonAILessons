@@ -28,3 +28,16 @@ def fakHesapla(x):
     else:
         return x * fakHesapla(x - 1)
 print(fakHesapla(-1))
+
+print("--------------------------")
+
+a = 2
+def f(x):
+    x = 5
+    return x
+print(f(a))
+print(a)
+
+
+
+print("--------------------------")
